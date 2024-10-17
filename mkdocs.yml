@@ -1,0 +1,57 @@
+site_name: Blue Revolution
+site_url: https://blue-revolution.org
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  favicon: assets/favicon.ico
+  logo: assets/globe-svgrepo-com.svg
+  palette:
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: indigo
+      accent: deep orange
+
+      # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: light blue
+      accent: deep purple
+
+
+  features:
+  - navigation.instant
+  - navigation.instant.progress
+  - navigation.tracking
+  - navigation.tabs
+  - navigation.sections
+  - navigation.expand
+  - navigation.path
+  - navigation.top
+  - navigation.footer
+  - search.suggest
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lou-hannah/blue_revolution
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<bluerevolution@ifremer.fr>
+    - icon: material/web
+      link: https://bluerevolution.ifremer.fr/
+      name: Discover the project
+copyright: Copyright &copy; 2024 - IFREMER
+
+repo_url: https://github.com/lou-hannah/blue_revolution.git
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
