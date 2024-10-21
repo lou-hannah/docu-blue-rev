@@ -613,14 +613,19 @@ Resin can be used for the tank if printer size allows it, however for the helix,
 Technical drawings can be found <a href="https://github.com/lou-hannah/blue_revolution/tree/main/hardware/3Dprint_files/3D%20printing%20files%202024-09-13">here</a>.<br />
 <em>Links will be updated as drawings get double-checked</em></p>
 <h2 id="electronics-set-up">Electronics set up</h2>
-<p>An example of codelock for python:</p>
+<p>All required components can be found <a href="https://github.com/lou-hannah/blue_revolution/blob/main/hardware/01_materiel_electronique.md">here</a>.</p>
+<p>The electronic circuit can be downloaded <a href="../assets/sch%C3%A9ma%20blue%20rev%20jean-yves%20coail.pdf">here</a>. A small, compact board was made in our workshop (left picture below), but it can also be made on a breadboard (right picture below). </p>
+<p><img alt="Arduino board set up" src="../assets/arduino_board.png" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Detailed set up, wiring and installation inside the electronics box can be found <a href="https://github.com/lou-hannah/blue_revolution/blob/main/docs/01_assemblage_blue_rev.md">here</a>.  </p>
+<p>The prototype runs on 12V, supplied either by a benchtop power supply, or by a 12V mains supply. Make sure that the power supply as a sufficient wattage, otherwise it will cause voltage drops.</p>
+<p>To start coding, first <a href="https://www.arduino.cc/en/software">install the Arduino IDE</a>. Then, as the Arduino Nano ESP32 is not included in the original packages supported by the Arduino, make sure to download the ESP32 board manager (see below).</p>
+<p><img alt="Arduino ESP32 board manager" src="../assets/dowload%20Arduino%20IDE.png" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>An example of code block for python:</p>
 <pre><code># Function bidon
 def isDNA(DNA,x):
     return truc 
-
-
-another code example
 </code></pre>
+<p>Complete code available <a href="https://github.com/lou-hannah/blue_revolution/tree/main/software">here</a>.  </p>
 <h2 id="hydraulics-and-pumps">Hydraulics and pumps</h2>
 <h2 id="on-board">On board</h2>
 
