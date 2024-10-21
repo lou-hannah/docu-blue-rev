@@ -396,6 +396,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="3D printing and machining">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#3d-printing" class="md-nav__link">
+    <span class="md-ellipsis">
+      3D printing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#machining" class="md-nav__link">
+    <span class="md-ellipsis">
+      Machining
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -495,6 +519,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="3D printing and machining">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#3d-printing" class="md-nav__link">
+    <span class="md-ellipsis">
+      3D printing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#machining" class="md-nav__link">
+    <span class="md-ellipsis">
+      Machining
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -545,16 +593,25 @@
 <h1 id="set-up">Set up</h1>
 <h2 id="technologies-used">Technologies used</h2>
 <p>The prototype requires an Arduino Nano ESP32 with its Arduino IDE and board package, a DC motor, a peristaltic pump and 3D printed parts. It is controlled via a web interface coded on the Arduino board using C++ and HTML languages.</p>
+<p>Sample imaging is done using either an Holo-LISST 2 camera or the newly developed MeioCam, derived from <a href="https://archimer.ifremer.fr/doc/00407/51833/">Ifremer’s ZooCAM</a>. This section will not be covered in this documentation, as it will have its own documentation.</p>
 <p>All required materials are available on the <a href="https://github.com/lou-hannah/blue_revolution/tree/main/hardware">dedicated git hub repository</a>.</p>
 <h2 id="3d-printing-and-machining">3D printing and machining</h2>
+<h3 id="3d-printing">3D printing</h3>
 <p>Mixing tank and helix were printed using XXX (<em>modèle de l'imprimante</em>). Density is best set at XXX%, using XXX filament. 
 Resin can be used for the tank if printer size allows it, however for the helix, resin proved to be too brittle.</p>
+<p>All 3D files can be found <a href="https://github.com/lou-hannah/blue_revolution/tree/main/hardware/3Dprint_files/3D%20printing%20files%202024-09-13">here</a>.<br />
+<em>Designs were made using AutoDesk Inventor. STL files to come...</em></p>
 <p>The 3D printed helix is adapted to the motor axis using a helicoil insert as thread.</p>
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/cuve-meca.JPG" alt="Mixing tank" style="width: 300px;">
-  <img src="assets/helix.JPG" alt="Helix" style="width: 300px;">
+  <img src="../assets/cuve-meca.JPG" alt="Mixing tank" style="width: 300px;">
+  <img src="../assets/helix.JPG" alt="Helix" style="width: 300px;">
 </div>
 
+<p><em>Add 3D printer image and helicoil image</em></p>
+<h3 id="machining">Machining</h3>
+<p>All remaining parts of the structure of the prototype have been constructed at Ifremer's workshop.<br />
+Technical drawings can be found <a href="https://github.com/lou-hannah/blue_revolution/tree/main/hardware/3Dprint_files/3D%20printing%20files%202024-09-13">here</a>.<br />
+<em>Links will be updated as drawings get double-checked</em></p>
 <h2 id="electronics-set-up">Electronics set up</h2>
 <p>An example of codelock for python:</p>
 <pre><code># Function bidon
